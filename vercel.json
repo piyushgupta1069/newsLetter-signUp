@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "newsLetter",
+    "builds": [
+      {
+        "src": "app.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "rewrites": [
+      {
+        "src": "/(.*)",
+        "dest": "/app.js"
+      }
+    ]
+  }
+  
